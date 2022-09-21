@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+#caixa1{
+    border-width: thin;
+    border-style: dashed;
+    border-top: thin solid red;
+    padding: 10px;
+    margin-bottom: 1em;
+    width: 35%;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+#caixa2{
+    border: solid thin red;
+    padding: 10px;
+    margin-top: 1em;
+    width: 35%;
+    position: absolute;
+    bottom: 50px;
+}
+
+body{
+    border-style: dashed;
+    border-width: 50%;
+}

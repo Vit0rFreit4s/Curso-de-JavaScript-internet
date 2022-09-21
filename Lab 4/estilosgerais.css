@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+#conteudo {
+    font-size: 11px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    line-height: 14px;
+    background-color: #d5d5de;
+    text-align: left;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 700px;
+    height: 700px;
+}
+
+#cabecalho {
+    text-align: center;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    height: 40px;
+}
+
+#caixa1 {
+    background-color: #ffc;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 200px;
+}
+
+#caixa2 {
+    color: #0f0;
+    background-color: #060;
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    width: 200px;
+    height: 125px;
+}
+
+#caixa3 {
+    color: #639;
+    background-color: #ccf;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    width: 190px;
+    height: 180px;
+}
+
+#caixa4 {
+    color: #900;
+    background-color: #f99;
+    padding: 20px;
+    position: absolute;
+    top: 220px;
+    left: 10px;
+    width: 250px;
+    height: 150px;
+}
+
+#caixa5 {
+    color: #393;
+    background-color: #dfd;
+    padding: 10px 10px 15px 80px;
+    position: absolute;
+    top: 220px;
+    left: 330px;
+    width: 250px;
+    height: 150px;
+    border-color: #090;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#caixa6 {
+    background-color: transparent;
+    position: absolute;
+    color: #009;
+    top: 450px;
+    left: 50px;
+    padding: 12px;
+    width: 194px;
+    text-align: center;
+    border-color: #ccf;
+    border-width: 6px;
+    border-style: ridge;
+}
+
+#caixa7 {
+    background-color: #eee;
+    background-position: 20px 20px;
+    text-align: right;
+    padding: 10px;
+    position: absolute;
+    top: 453px;
+    right: 70px;
+    width: 230px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas e Ligações</title>
+    <link rel="stylesheet" href="estilosgerais.css">
+</head>
+
+<body>
+    <h1>Listas e Ligações</h1>
+    <h3>Índice</h3>
+    <ul>
+        <li><a href="#listas-nao-numeradas" title="Listas não numeradas">Listas não numeradas</a></li>
+        <li><a href="#listas-numeradas" title="Listas Numeradas">Listas numeradas</a></li>
+        <li><a href="#ligações" title="Ligações">Ligações</a></li>
+    </ul>
+    <a name="listas-nao-numeradas"></a>
+    <h3>Listas não numeradas</h3>
+    <p>
+        De seguida vamos listar diversos itens utilizando uma lista não numerada.
+        Uma lista não numerada produz-se com a etiqueta &lt;ul&gt;.
+    </p>
+    <ul>
+        <li>Primeiro item da lista não numerada</li>
+        <li>Segundo item da lista não numerada</li>
+        <li>Adivinhe...</li>
+    </ul>
+    <p>
+        Outra lista não numerada, desta vez com outro símbolo para as marcas...
+    </p>
+    <ul style="list-style-type: circle;">
+        <li>Primeiro item da lista não numerada</li>
+        <li>Segundo item da lista não numerada</li>
+        <li>Adivinhe...</li>
+    </ul>
+    <p>
+        Mais outra lista não numerada. Esta utiliza uma imagem como marca.
+    </p>
+    <ul style="list-style-image: url(marca.png);">
+        <li>Primeiro item da lista não numerada</li>
+        <li>Segundo item da lista não numerada</li>
+        <li>Adivinhe...</li>
+    </ul>
+    <p>
+        Uma última lista não numerada, com uma imagem por item.
+    </p>
+    <ul>
+        <li style="list-style-image: url('safari.png');">Safari</li>
+        <li style="list-style-image: url('firefox.png');">Firefox</li>
+    </ul>
+    <a name="listas-numeradas"></a>
+    <h3>Listas numeradas</h3>
+    <p>
+        Segue-se uma lista numerada. Uma lista numerada produz-se com a etiqueta
+        &lt;ol&gt;.
+    </p>
+    <ol>
+        <li>Alberto</li>
+        <li>Armando</li>
+        <li>António</li>
+    </ol>
+    <p>
+        Outra lista numerada, desta vez com outro tipo de numeração ...
+    </p>
+    <ol style="list-style-type: upper-roman;">
+        <li>Alberto</li>
+        <li>Armando</li>
+        <li>António</li>
+    </ol>
+    <a name="ligações"></a>
+    <h3>Ligações</h3>
+    <p>
+        As ligações são um dos conceitos mais importantes de uma página HTML.
+        Aliás, as letras HT referem-se a hipertexto e isto consiste em texto com
+        (hiper)ligações para outros documentos ou partes do próprio documento.
+    </p>
+    <p>
+        Para regressar ao topo do documento siga <a href="Parte1.html">esta</a>
+        ligação.
+    </p>
+    <p>
+        Também podemos regressar através <a href="">desta</a> ligação.
+    </p>
+    <p>
+        Uma <a href="#listas-nao-numeradas">ligação</a> para a zona das listas não
+        numeradas. Esta outra <a href="Parte1.html#listas-nao-numeradas">ligação</a>
+        também leva ao mesmo local.
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    background-color: #1d1f21;
+    color: #c5c8c6;
+    font-family: Verdana, sans-serif;
+}
+h1{
+    margin-bottom: 1.5em;
+    color: #b5bd68;
+    font-family: sans-serif;
+}
+h3{
+    color: #b5bd68;
+}
+ul{
+    /* border: 1px solid red; */
+    list-style-type: square;    
+}
+ol{
+    list-style-type: decimal;
+}
+ol li{
+    margin: 0.5em 0 0.5em 1em;
+}
+ul, ol{
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+a:link{
+    color: #696;
+    text-decoration: none;
+}
+a:visited{
+    color: #699;
+    text-decoration: none;
+}
+a:hover{
+    color: #c93;
+    text-decoration: underline;
+}
+a:active{
+    color: #900;
+    text-decoration: underline;
+}
